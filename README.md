@@ -96,9 +96,9 @@ git clone https://github.com/clodio/spotify2-simplon
 cd ./spotify2-simplon
 cp playlist.csv /home/simplon/spotify_playlist/playlist.csv
 cp spotify_airflow.py /home/simplon/airflow/dags/spotify_airflow.py
-cp artists.sh /home/simplon/airflow/dags/artists.py
-cp tracks.sh /home/simplon/airflow/dags/tracks.py
-cp in_out.sh /home/simplon/airflow/dags/in_out.py
+cp artists.sh /home/simplon/airflow/dags/artists.sh
+cp tracks.sh /home/simplon/airflow/dags/tracks.sh
+cp in_out.sh /home/simplon/airflow/dags/in_out.sh
 ```
 
 ## Lancer le dag de airflow depuis http://localhost:8080/dags/ 
